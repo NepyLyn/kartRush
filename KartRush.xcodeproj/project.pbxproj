@@ -7,13 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		991628756E522EDAB06BC6E4 /* Pods_KartRushTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5427DF8E185E10C56A810A60 /* Pods_KartRushTests.framework */; };
+		B2114DFE3153671ABA9C3055 /* Pods_KartRush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37D4F86602F0360ED5711F9 /* Pods_KartRush.framework */; };
+		B30F2348239616D000F6E30C /* Symtext.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B30F2347239616D000F6E30C /* Symtext.ttf */; };
+		B30F2349239616D000F6E30C /* Symtext.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B30F2347239616D000F6E30C /* Symtext.ttf */; };
+		B30F234A239616D000F6E30C /* Symtext.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B30F2347239616D000F6E30C /* Symtext.ttf */; };
+		B30F234D2396174000F6E30C /* customFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B9D049239613FB0092E4A8 /* customFont.ttf */; };
+		B30F234E2396174000F6E30C /* customFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B9D049239613FB0092E4A8 /* customFont.ttf */; };
+		B30F23502396183200F6E30C /* Pixellari.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B30F234F2396183200F6E30C /* Pixellari.ttf */; };
+		B30F23512396183200F6E30C /* Pixellari.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B30F234F2396183200F6E30C /* Pixellari.ttf */; };
+		B30F23522396183200F6E30C /* Pixellari.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B30F234F2396183200F6E30C /* Pixellari.ttf */; };
+		B30F23542396191F00F6E30C /* upheavtt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B30F23532396191F00F6E30C /* upheavtt.ttf */; };
+		B30F23552396191F00F6E30C /* upheavtt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B30F23532396191F00F6E30C /* upheavtt.ttf */; };
+		B30F23562396191F00F6E30C /* upheavtt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B30F23532396191F00F6E30C /* upheavtt.ttf */; };
+		B30F235C2396240B00F6E30C /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30F235B2396240B00F6E30C /* PlayViewController.swift */; };
+		B3213DB32398EAB5001E2A35 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3213DB22398EAB5001E2A35 /* StoreViewController.swift */; };
+		B3213DB52398EAEC001E2A35 /* SocialTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3213DB42398EAEC001E2A35 /* SocialTableViewController.swift */; };
+		B35658AE23974CF70007F266 /* RegisterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35658AD23974CF70007F266 /* RegisterTableViewController.swift */; };
 		B3B8974F23942BAD007AAF4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B8974E23942BAD007AAF4F /* AppDelegate.swift */; };
-		B3B8975123942BAD007AAF4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B8975023942BAD007AAF4F /* ViewController.swift */; };
+		B3B8975123942BAD007AAF4F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B8975023942BAD007AAF4F /* LoginViewController.swift */; };
 		B3B8975423942BAD007AAF4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3B8975223942BAD007AAF4F /* Main.storyboard */; };
 		B3B8975623942BAF007AAF4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B8975523942BAF007AAF4F /* Assets.xcassets */; };
 		B3B8975923942BAF007AAF4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3B8975723942BAF007AAF4F /* LaunchScreen.storyboard */; };
 		B3B8976423942BAF007AAF4F /* KartRushTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B8976323942BAF007AAF4F /* KartRushTests.swift */; };
 		B3B8976F23942BAF007AAF4F /* KartRushUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B8976E23942BAF007AAF4F /* KartRushUITests.swift */; };
+		B3B8977E23942C6B007AAF4F /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B8977D23942C6B007AAF4F /* Vehicle.swift */; };
+		B3B8978023943088007AAF4F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B8977F23943088007AAF4F /* Player.swift */; };
+		B3B89782239463AA007AAF4F /* Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B89781239463AA007AAF4F /* Race.swift */; };
+		B3B8978423947191007AAF4F /* Runner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B8978323947191007AAF4F /* Runner.swift */; };
+		B3B9D04A239613FB0092E4A8 /* customFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B9D049239613FB0092E4A8 /* customFont.ttf */; };
+		B3CCD9432397173C0084E847 /* GarageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CCD9422397173C0084E847 /* GarageViewController.swift */; };
+		B3CCD945239729A80084E847 /* KartRushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CCD944239729A80084E847 /* KartRushViewController.swift */; };
+		B3CCD94723972F380084E847 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3CCD94623972F380084E847 /* GoogleService-Info.plist */; };
+		B3F3B1622399613F004A6022 /* playScene.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3F3B1612399613F004A6022 /* playScene.scn */; };
+		B3F3B166239962B5004A6022 /* theMTL.mtl in Resources */ = {isa = PBXBuildFile; fileRef = B3F3B163239962B4004A6022 /* theMTL.mtl */; };
+		B3F3B167239962B5004A6022 /* Starter.obj in Resources */ = {isa = PBXBuildFile; fileRef = B3F3B164239962B5004A6022 /* Starter.obj */; };
+		B3F3B168239962B5004A6022 /* veh_ambulance.png in Resources */ = {isa = PBXBuildFile; fileRef = B3F3B165239962B5004A6022 /* veh_ambulance.png */; };
+		C386491CBB8803677D869B92 /* Pods_KartRushUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16592C85FB1A607D76CA54D0 /* Pods_KartRushUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +64,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16592C85FB1A607D76CA54D0 /* Pods_KartRushUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KartRushUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5427DF8E185E10C56A810A60 /* Pods_KartRushTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KartRushTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE105BB47A0A031A82F2F8A /* Pods-KartRushTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KartRushTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KartRushTests/Pods-KartRushTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7804ECB21AAEF9C7F2400BD7 /* Pods-KartRushUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KartRushUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KartRushUITests/Pods-KartRushUITests.release.xcconfig"; sourceTree = "<group>"; };
+		807667DA798F030C67382DF4 /* Pods-KartRushUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KartRushUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KartRushUITests/Pods-KartRushUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE701F9C410F70D7EE68DF2F /* Pods-KartRush.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KartRush.release.xcconfig"; path = "Pods/Target Support Files/Pods-KartRush/Pods-KartRush.release.xcconfig"; sourceTree = "<group>"; };
+		B30F2347239616D000F6E30C /* Symtext.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Symtext.ttf; sourceTree = "<group>"; };
+		B30F234F2396183200F6E30C /* Pixellari.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pixellari.ttf; sourceTree = "<group>"; };
+		B30F23532396191F00F6E30C /* upheavtt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = upheavtt.ttf; sourceTree = "<group>"; };
+		B30F235B2396240B00F6E30C /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		B3213DB12398380C001E2A35 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B3213DB22398EAB5001E2A35 /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		B3213DB42398EAEC001E2A35 /* SocialTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialTableViewController.swift; sourceTree = "<group>"; };
+		B35658AD23974CF70007F266 /* RegisterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTableViewController.swift; sourceTree = "<group>"; };
 		B3B8974B23942BAD007AAF4F /* KartRush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KartRush.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B8974E23942BAD007AAF4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B3B8975023942BAD007AAF4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3B8975023942BAD007AAF4F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B3B8975323942BAD007AAF4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3B8975523942BAF007AAF4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3B8975823942BAF007AAF4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +91,21 @@
 		B3B8976A23942BAF007AAF4F /* KartRushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KartRushUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B8976E23942BAF007AAF4F /* KartRushUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartRushUITests.swift; sourceTree = "<group>"; };
 		B3B8977023942BAF007AAF4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3B8977D23942C6B007AAF4F /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		B3B8977F23943088007AAF4F /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		B3B89781239463AA007AAF4F /* Race.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Race.swift; sourceTree = "<group>"; };
+		B3B8978323947191007AAF4F /* Runner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runner.swift; sourceTree = "<group>"; };
+		B3B9D049239613FB0092E4A8 /* customFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = customFont.ttf; sourceTree = "<group>"; };
+		B3CCD9422397173C0084E847 /* GarageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageViewController.swift; sourceTree = "<group>"; };
+		B3CCD944239729A80084E847 /* KartRushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartRushViewController.swift; sourceTree = "<group>"; };
+		B3CCD94623972F380084E847 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B3F3B1612399613F004A6022 /* playScene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = playScene.scn; sourceTree = "<group>"; };
+		B3F3B163239962B4004A6022 /* theMTL.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = theMTL.mtl; sourceTree = "<group>"; };
+		B3F3B164239962B5004A6022 /* Starter.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Starter.obj; sourceTree = "<group>"; };
+		B3F3B165239962B5004A6022 /* veh_ambulance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = veh_ambulance.png; sourceTree = "<group>"; };
+		D37D4F86602F0360ED5711F9 /* Pods_KartRush.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KartRush.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6CBB52F2D2DA1F139E2861 /* Pods-KartRushTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KartRushTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KartRushTests/Pods-KartRushTests.release.xcconfig"; sourceTree = "<group>"; };
+		FEDE3D3E872859D526F2D39B /* Pods-KartRush.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KartRush.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KartRush/Pods-KartRush.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2114DFE3153671ABA9C3055 /* Pods_KartRush.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				991628756E522EDAB06BC6E4 /* Pods_KartRushTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +129,94 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C386491CBB8803677D869B92 /* Pods_KartRushUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BDA2F307E2E4DE400831EE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D37D4F86602F0360ED5711F9 /* Pods_KartRush.framework */,
+				5427DF8E185E10C56A810A60 /* Pods_KartRushTests.framework */,
+				16592C85FB1A607D76CA54D0 /* Pods_KartRushUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CFF0A99DBE6252237293F9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEDE3D3E872859D526F2D39B /* Pods-KartRush.debug.xcconfig */,
+				AE701F9C410F70D7EE68DF2F /* Pods-KartRush.release.xcconfig */,
+				5DE105BB47A0A031A82F2F8A /* Pods-KartRushTests.debug.xcconfig */,
+				FC6CBB52F2D2DA1F139E2861 /* Pods-KartRushTests.release.xcconfig */,
+				807667DA798F030C67382DF4 /* Pods-KartRushUITests.debug.xcconfig */,
+				7804ECB21AAEF9C7F2400BD7 /* Pods-KartRushUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B30F23572396222900F6E30C /* Play */ = {
+			isa = PBXGroup;
+			children = (
+				B3F3B163239962B4004A6022 /* theMTL.mtl */,
+				B3F3B164239962B5004A6022 /* Starter.obj */,
+				B3F3B165239962B5004A6022 /* veh_ambulance.png */,
+				B30F235B2396240B00F6E30C /* PlayViewController.swift */,
+			);
+			path = Play;
+			sourceTree = "<group>";
+		};
+		B30F23582396223800F6E30C /* Garage */ = {
+			isa = PBXGroup;
+			children = (
+				B3CCD9422397173C0084E847 /* GarageViewController.swift */,
+			);
+			path = Garage;
+			sourceTree = "<group>";
+		};
+		B30F23592396224D00F6E30C /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				B3213DB22398EAB5001E2A35 /* StoreViewController.swift */,
+			);
+			name = Store;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		B30F235A2396225F00F6E30C /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				B3213DB42398EAEC001E2A35 /* SocialTableViewController.swift */,
+			);
+			path = Social;
+			sourceTree = "<group>";
+		};
+		B33885C223960E2B004465D0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B30F23532396191F00F6E30C /* upheavtt.ttf */,
+				B30F234F2396183200F6E30C /* Pixellari.ttf */,
+				B30F2347239616D000F6E30C /* Symtext.ttf */,
+				B3B9D049239613FB0092E4A8 /* customFont.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		B3B8974223942BAD007AAF4F = {
 			isa = PBXGroup;
 			children = (
+				B3B8977C23942C1C007AAF4F /* Model */,
 				B3B8974D23942BAD007AAF4F /* KartRush */,
+				B33885C223960E2B004465D0 /* Resources */,
 				B3B8976223942BAF007AAF4F /* KartRushTests */,
 				B3B8976D23942BAF007AAF4F /* KartRushUITests */,
 				B3B8974C23942BAD007AAF4F /* Products */,
+				3CFF0A99DBE6252237293F9B /* Pods */,
+				3BDA2F307E2E4DE400831EE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +233,20 @@
 		B3B8974D23942BAD007AAF4F /* KartRush */ = {
 			isa = PBXGroup;
 			children = (
+				B30F23592396224D00F6E30C /* Store */,
+				B30F23582396223800F6E30C /* Garage */,
+				B30F23572396222900F6E30C /* Play */,
+				B30F235A2396225F00F6E30C /* Social */,
+				B35658AD23974CF70007F266 /* RegisterTableViewController.swift */,
 				B3B8974E23942BAD007AAF4F /* AppDelegate.swift */,
-				B3B8975023942BAD007AAF4F /* ViewController.swift */,
+				B3B8975023942BAD007AAF4F /* LoginViewController.swift */,
+				B3CCD944239729A80084E847 /* KartRushViewController.swift */,
 				B3B8975223942BAD007AAF4F /* Main.storyboard */,
 				B3B8975523942BAF007AAF4F /* Assets.xcassets */,
+				B3F3B1612399613F004A6022 /* playScene.scn */,
 				B3B8975723942BAF007AAF4F /* LaunchScreen.storyboard */,
 				B3B8975A23942BAF007AAF4F /* Info.plist */,
+				B3CCD94623972F380084E847 /* GoogleService-Info.plist */,
 			);
 			path = KartRush;
 			sourceTree = "<group>";
@@ -125,6 +269,18 @@
 			path = KartRushUITests;
 			sourceTree = "<group>";
 		};
+		B3B8977C23942C1C007AAF4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3B8977D23942C6B007AAF4F /* Vehicle.swift */,
+				B3B8977F23943088007AAF4F /* Player.swift */,
+				B3B89781239463AA007AAF4F /* Race.swift */,
+				B3B8978323947191007AAF4F /* Runner.swift */,
+				B3213DB12398380C001E2A35 /* MyPlayground.playground */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +288,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3B8977323942BAF007AAF4F /* Build configuration list for PBXNativeTarget "KartRush" */;
 			buildPhases = (
+				0B94A20E6F080F1BD06C6803 /* [CP] Check Pods Manifest.lock */,
 				B3B8974723942BAD007AAF4F /* Sources */,
 				B3B8974823942BAD007AAF4F /* Frameworks */,
 				B3B8974923942BAD007AAF4F /* Resources */,
+				A445CC2C91BEF6CED6841A13 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +307,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3B8977623942BAF007AAF4F /* Build configuration list for PBXNativeTarget "KartRushTests" */;
 			buildPhases = (
+				D69CA84CF3AA966A4B24C8D3 /* [CP] Check Pods Manifest.lock */,
 				B3B8975B23942BAF007AAF4F /* Sources */,
 				B3B8975C23942BAF007AAF4F /* Frameworks */,
 				B3B8975D23942BAF007AAF4F /* Resources */,
@@ -167,6 +326,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3B8977923942BAF007AAF4F /* Build configuration list for PBXNativeTarget "KartRushUITests" */;
 			buildPhases = (
+				8D639324B5A12EFAA3F5F22E /* [CP] Check Pods Manifest.lock */,
 				B3B8976623942BAF007AAF4F /* Sources */,
 				B3B8976723942BAF007AAF4F /* Frameworks */,
 				B3B8976823942BAF007AAF4F /* Resources */,
@@ -229,8 +389,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3B9D04A239613FB0092E4A8 /* customFont.ttf in Resources */,
+				B3F3B167239962B5004A6022 /* Starter.obj in Resources */,
+				B3CCD94723972F380084E847 /* GoogleService-Info.plist in Resources */,
+				B30F23542396191F00F6E30C /* upheavtt.ttf in Resources */,
 				B3B8975923942BAF007AAF4F /* LaunchScreen.storyboard in Resources */,
 				B3B8975623942BAF007AAF4F /* Assets.xcassets in Resources */,
+				B3F3B168239962B5004A6022 /* veh_ambulance.png in Resources */,
+				B3F3B166239962B5004A6022 /* theMTL.mtl in Resources */,
+				B3F3B1622399613F004A6022 /* playScene.scn in Resources */,
+				B30F2348239616D000F6E30C /* Symtext.ttf in Resources */,
+				B30F23502396183200F6E30C /* Pixellari.ttf in Resources */,
 				B3B8975423942BAD007AAF4F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +408,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B30F23552396191F00F6E30C /* upheavtt.ttf in Resources */,
+				B30F234D2396174000F6E30C /* customFont.ttf in Resources */,
+				B30F2349239616D000F6E30C /* Symtext.ttf in Resources */,
+				B30F23512396183200F6E30C /* Pixellari.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,18 +419,137 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B30F23562396191F00F6E30C /* upheavtt.ttf in Resources */,
+				B30F234E2396174000F6E30C /* customFont.ttf in Resources */,
+				B30F234A239616D000F6E30C /* Symtext.ttf in Resources */,
+				B30F23522396183200F6E30C /* Pixellari.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B94A20E6F080F1BD06C6803 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KartRush-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D639324B5A12EFAA3F5F22E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KartRushUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A445CC2C91BEF6CED6841A13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KartRush/Pods-KartRush-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/abseil/absl.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/absl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KartRush/Pods-KartRush-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D69CA84CF3AA966A4B24C8D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KartRushTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B3B8974723942BAD007AAF4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3B8975123942BAD007AAF4F /* ViewController.swift in Sources */,
+				B3B8977E23942C6B007AAF4F /* Vehicle.swift in Sources */,
+				B3B8978023943088007AAF4F /* Player.swift in Sources */,
+				B3213DB32398EAB5001E2A35 /* StoreViewController.swift in Sources */,
+				B3B8975123942BAD007AAF4F /* LoginViewController.swift in Sources */,
+				B3213DB52398EAEC001E2A35 /* SocialTableViewController.swift in Sources */,
+				B3CCD9432397173C0084E847 /* GarageViewController.swift in Sources */,
+				B3CCD945239729A80084E847 /* KartRushViewController.swift in Sources */,
+				B3B8978423947191007AAF4F /* Runner.swift in Sources */,
+				B35658AE23974CF70007F266 /* RegisterTableViewController.swift in Sources */,
 				B3B8974F23942BAD007AAF4F /* AppDelegate.swift in Sources */,
+				B30F235C2396240B00F6E30C /* PlayViewController.swift in Sources */,
+				B3B89782239463AA007AAF4F /* Race.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +722,7 @@
 		};
 		B3B8977423942BAF007AAF4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEDE3D3E872859D526F2D39B /* Pods-KartRush.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +740,7 @@
 		};
 		B3B8977523942BAF007AAF4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE701F9C410F70D7EE68DF2F /* Pods-KartRush.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +758,7 @@
 		};
 		B3B8977723942BAF007AAF4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DE105BB47A0A031A82F2F8A /* Pods-KartRushTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +779,7 @@
 		};
 		B3B8977823942BAF007AAF4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC6CBB52F2D2DA1F139E2861 /* Pods-KartRushTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +800,7 @@
 		};
 		B3B8977A23942BAF007AAF4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 807667DA798F030C67382DF4 /* Pods-KartRushUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +820,7 @@
 		};
 		B3B8977B23942BAF007AAF4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7804ECB21AAEF9C7F2400BD7 /* Pods-KartRushUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

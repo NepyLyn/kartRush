@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>962756717871-0kbr45mucv5dmascp8osdt4t4fbg9rd7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.962756717871-0kbr45mucv5dmascp8osdt4t4fbg9rd7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDt0wpR7O2Gs0KjMuB8G23bWEUmMVg4Nko</string>
+	<key>GCM_SENDER_ID</key>
+	<string>962756717871</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Aztech.KartRush</string>
+	<key>PROJECT_ID</key>
+	<string>kartrush-44ee5</string>
+	<key>STORAGE_BUCKET</key>
+	<string>kartrush-44ee5.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:962756717871:ios:67716ebe9b71043eda45da</string>
+	<key>DATABASE_URL</key>
+	<string>https://kartrush-44ee5.firebaseio.com</string>
+</dict>
+</plist>
